@@ -34,7 +34,7 @@ To create a new Rails app using Instant Rails, run the following command:
 rails new my_app_name \
   -T \
   -d postgresql \
-  -m https://raw.githubusercontent.com/jasonswett/instant_rails/main/template/template.rb
+  -m https://raw.githubusercontent.com/atinybeardedman/instant_rails/main/template/template.rb
 ```
 
 This will create a Rails application for you. Once the script finishes, you can `cd` into the project directory, run `rails server` and see your app running.
