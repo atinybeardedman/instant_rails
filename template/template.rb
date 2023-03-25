@@ -28,8 +28,6 @@ CODE
 
 gem "paranoia"
 
-gem "audited"
-after_bundle { rails_command("generate audited:install") }
 after_bundle { rails_command("db:migrate") }
 
 gem "devise"
@@ -42,6 +40,7 @@ gem_group :development, :test do
   gem "factory_bot_rails"
   gem "faker"
   gem "rspec-rails"
+  gem "standard"
 end
 after_bundle { rails_command("generate rspec:install") }
 
